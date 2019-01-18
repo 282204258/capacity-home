@@ -1,0 +1,111 @@
+.lunbo{
+    @top:300px;
+    width: 100%;
+    height: 300px;
+    div{
+        width: 100%;
+        height: 300px;
+        transition: 1s;
+        &:nth-of-type(1){
+            background-image: url('../images/8123e7545d7a2ed50e05db7669d8c4db.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &:nth-of-type(2){
+            position: relative;
+            top:  -@top;
+            background-image: url('../images/7cc0049049451adffa49bbde5ec36504.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    ul{
+        width: 100px;
+        margin: 0 auto;
+        position: relative;
+        top: -@top - 50px;
+        li{
+            float: left;
+            margin-left: 20px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background:gray;
+            &:nth-of-type(2){
+                background:#37A990;
+            }
+        }
+    }
+}
+body{
+    height: 0px;
+}
+.ztbox{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -290px;
+}
+.zNbox{
+    width: 100%;
+    overflow: hidden;
+    div{
+        width: 100%;
+        margin-top: 20px;
+        p{
+            width: 1280px;
+            height: 50px;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 50px;
+            font-size: 30px;
+            color: gray;
+            &:nth-of-type(2){
+                width: 50px;
+                height: 0px;
+                border-bottom: 1px solid #37A990;
+            }
+        } 
+    }
+   
+    .zN_zbox{
+        width: 1280px;
+        margin: 15px auto;
+        overflow: hidden;
+        ul{
+            position: relative;
+            width: 1280px;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            overflow: hidden;
+            li{
+                float: left;
+                margin-left: 10px;
+                width: 300px;
+                height: 200px;
+                margin-top: 10px;
+                img{
+                    width: 300px;
+                    height: 200px;
+                }
+                p{
+                    position: relative;
+                    top: -50px;
+                    left: 10px;
+                    width: 300px;
+                    z-index: 20;
+                    font-size: 15px;
+                    text-align: left;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+.Ftbox{
+    position: relative;
+    top: -300px;
+}
